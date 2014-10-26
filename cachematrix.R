@@ -1,8 +1,7 @@
 ## A pair of functions that  caching the inverse of  a matrix
 ## 
 
-## Write a short comment describing this function
-
+##  function create a matrix that can be inverted
 makeCacheMatrix <- function(x = matrix()) {
   #initialize the inverse of the matrix to null
   i <- NULL
@@ -21,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Function that inverts a matrix and returns
 
 cacheSolve <- function(x, ...) {
 
